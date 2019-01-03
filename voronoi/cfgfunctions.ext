@@ -1,0 +1,48 @@
+//cfgfunctions.ext
+class VOR
+{
+	tag = "VOR";
+	class VORONOI
+	{
+		file = "voronoi\main";
+        //Public functions
+        class getEdges {};
+
+        //Internal functions
+        class newEdge {};
+        class newEvent {};
+        class newParabola {};
+        class treeSetChild {};
+        class treeGetParent {};
+        class treeGetLeafChild {};
+        class insertParabola {};
+        class removeParabola {};
+        class finishEdge {};
+        class getXOfEdge {};
+        class getParabolaByX {};
+        class getY {};
+        class checkCircle {};
+        class getEdgeIntersection {};
+        class printTree {};
+        class pointerNewContainer {};
+        class pointerDelContainer {};
+        class pointerNew {};
+        class pointerSet {};
+        class pointerGet {};
+        class boundEdge {};
+    };
+    class HEAP 
+    {
+        //Heap functions
+        file = "voronoi\heap";
+        class heapSwap {};
+        class heapPercUp {};
+        class heapPercDown {};
+        class heapPeek {};
+        class heapPop {};
+        class heapInsert {};
+        class heapDelete {};
+        class heapSize {};
+        class heapNew {};
+    };
+};

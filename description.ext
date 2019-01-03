@@ -1,0 +1,33 @@
+#include "menus.hpp"
+
+onLoadMission = "Gun Game";
+onLoadIntro = "Gun Game";
+onLoadMissionTime = 1;
+onLoadIntroTime = 1;
+loadScreen =  "";
+author = "Ed!";
+onLoadName = "Gun Game";
+class Header
+{
+	gameType = DM; // MP misison type
+}; 	
+respawn = 3;
+respawnDelay = 3;
+respawnDialog = 0;
+disabledAI = 1;
+aiKills = 0;
+enableItemsDropping = 0;
+joinUnassigned = 0;
+corpseManagerMode = 1;
+corpseLimit = 1;
+corpseRemovalMinTime = 1;
+corpseRemovalMaxTime = 1;
+disableChannels[]={3,4,5,6};
+enableDebugConsole = 1;
+
+allowFunctionsRecompile = 1;
+
+class CfgFunctions
+{
+    #include "voronoi\cfgfunctions.ext"
+};
